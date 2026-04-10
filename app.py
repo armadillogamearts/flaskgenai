@@ -20,7 +20,7 @@ def gerar():
     
     try:
         # Usando o modelo que você testou no Playground
-        model = genai.GenerativeModel('gemini-2.5-flash-image')
+        model = genai.GenerativeModel('gemini-2.0-flash-exp')
         
         # Solicitando explicitamente a geração da imagem
         response = model.generate_content(f"Gere uma imagem de: {prompt}")
